@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flingt Status(my)</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="container">
+        <h1>Flingt Status</h1>
+
+        <!-- Departure -->
+         <label>Select Departure Airport</label>
+         <select class="select" id="departure">
+            <option>Stect Departure Airport</option>
+         </select>
+
+         <!-- Arrival -->
+          <label>Select Arrival Airport</label>
+          <select class="select" id="arrival">
+            <option>Select Arrival Airport</option>
+          </select>
+
+          <!-- Button -->
+           <button id="checkStatus">Check Flingt Status</button>
+
+           <!-- Result -->
+            <div class="result" id="result">
+                Show result
+            </div>
+    </section>
+
+    <script src="/airports.js"></script>
+    <script src="/script.js"></script>
+    <script src="/flights.js"></script>
+</body>
+</html>
